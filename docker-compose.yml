@@ -4,7 +4,7 @@ services:
         container_name: kanban-db
         environment:
             POSTGRES_USER: kanban_admin
-            POSTGRES_PASSWORD: senha@123
+            POSTGRES_PASSWORD: senha123
             POSTGRES_DB: kanban
         ports:
             - "5432:5432"
